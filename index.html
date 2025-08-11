@@ -1,0 +1,365 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>CtrlAltQ — Freelance Web Design That Converts</title>
+  <meta name="description" content="Freelance web design and development for small businesses. Fast, clean, and conversion‑focused. Get a free homepage teardown and a fixed‑price quote." />
+  <meta name="robots" content="index,follow" />
+  <link rel="canonical" href="https://ctrlaltq.dev/" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="CtrlAltQ — Freelance Web Design That Converts" />
+  <meta property="og:description" content="Fast, clean, conversion‑focused websites. Get a free homepage teardown and a fixed‑price quote." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://placehold.co/1200x630/png?text=CtrlAltQ" />
+  <meta property="og:url" content="https://ctrlaltq.dev/" />
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="CtrlAltQ — Freelance Web Design That Converts" />
+  <meta name="twitter:description" content="Fast, clean, conversion‑focused websites. Get a free homepage teardown and a fixed‑price quote." />
+  <meta name="twitter:image" content="https://placehold.co/1200x630/png?text=CtrlAltQ" />
+
+  <!-- Tailwind CSS (CDN for ultra‑low cost MVP) -->
+  <link rel="preconnect" href="https://cdn.tailwindcss.com">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="css/main.css">
+  <script>
+    // Tailwind config (earth tone theme)
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              DEFAULT: '#0EA5E9',    // sky-500 (bright blue)
+              dark: '#0369A1',       // sky-700 (darker blue)
+              light: '#38BDF8'       // sky-400 (lighter accent)
+            },
+            eggshell: '#FAF9F7',     // warm off-white
+            stone: {
+              25: '#FDFCFA',         // lightest stone
+              50: '#FAFAF9',         // very light warm gray
+              100: '#F5F5F4',        // light warm gray
+              200: '#E7E5E4',        // warm gray
+              300: '#D6D3D1',        // medium warm gray
+              400: '#A8A29E',        // darker warm gray
+              500: '#78716C',        // medium stone
+              600: '#57534E',        // dark stone
+              700: '#44403C',        // darker stone
+              800: '#292524',        // very dark stone
+              900: '#1C1917'         // darkest stone
+            }
+          }
+        }
+      }
+    }
+  </script>
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <meta name="theme-color" content="#0EA5E9" />
+
+
+  <!-- JSON‑LD: ProfessionalService -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    "name": "CtrlAltQ — Freelance Web Design",
+    "url": "https://ctrlaltq.dev/",
+    "areaServed": ["Nashville, TN", "Remote"],
+    "sameAs": ["https://github.com/ctrlaltq", "https://www.linkedin.com/in/chefq-jeremyclegg"],
+    "description": "Conversion‑focused websites for small businesses. Fixed‑price, fast delivery.",
+    "priceRange": "$$",
+    "founder": {"@type": "Person", "name": "Jeremy Clegg"}
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "How fast can you build?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Simple landing pages are typically delivered in about two weeks once content is ready. Rush available."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Do you work with tight budgets?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. We can start with a lean one‑pager and grow as leads come in."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What do you need from me?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "A logo (if you have one), a couple of photos, and rough copy. I can help refine the words."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How do we start?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Fill the form and I'll send a quick Loom plus a fixed‑price quote. If it’s a fit, we book a slot."
+        }
+      }
+    ]
+  }
+  </script>
+</head>
+<body class="bg-eggshell text-stone-900">
+  <a href="#main" class="sr-only focus:not-sr-only focus:fixed focus:top-3 focus:left-3 focus:bg-stone-900 focus:text-white focus:px-3 focus:py-2 focus:rounded">Skip to content</a>
+  <!-- Top bar -->
+  <header class="sticky top-0 z-50 backdrop-blur supports-[backdrop-filter]:bg-stone-25/80 bg-stone-25/95 border-b border-stone-200">
+    <div class="mx-auto max-w-6xl px-4">
+      <div class="flex items-center justify-between h-14">
+        <a href="#" class="flex items-center gap-2 font-semibold">
+          <svg width="26" height="26" viewBox="0 0 24 24" fill="none" class="text-brand"><path d="M4 7h8v2H6v6h6v2H4V7Zm10 0h6v2h-6V7Zm0 4h6v2h-6v-2Zm0 4h6v2h-6v-2Z" fill="currentColor"/></svg>
+          <span>CtrlAltQ</span>
+        </a>
+        <nav aria-label="Primary" class="hidden md:flex items-center gap-6 text-sm">
+          <a href="#work" class="hover:text-brand">Work</a>
+          <a href="#services" class="hover:text-brand">Services</a>
+          <a href="#pricing" class="hover:text-brand">Pricing</a>
+          <a href="#faq" class="hover:text-brand">FAQ</a>
+          <a href="#contact" class="inline-flex items-center gap-2 rounded-lg bg-brand px-3 py-1.5 text-white hover:bg-brand-dark transition">Get a Quote</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+
+  <!-- Hero -->
+  <section class="relative overflow-hidden py-16 md:py-24">
+    <div class="mx-auto max-w-6xl px-4 grid md:grid-cols-2 gap-12 items-center">
+      <div>
+        <h1 class="text-3xl md:text-5xl font-extrabold tracking-tight leading-[1.05]">
+          Websites that look sharp and actually <span class="text-brand">convert</span>.
+        </h1>
+        <p class="mt-4 text-lg text-stone-700">I'm Jeremy—freelance web designer/developer. I build fast, clean sites for small businesses and creators. Straightforward prices. No mystery meat navigation, no fluff.</p>
+        <div class="mt-6 flex flex-wrap items-center gap-3">
+          <a href="#contact" class="inline-flex items-center rounded-lg bg-brand px-5 py-3 text-white font-medium hover:bg-brand-dark transition">Get a free teardown</a>
+          <a href="#work" class="inline-flex items-center rounded-lg px-5 py-3 border border-stone-300 hover:border-stone-400 font-medium">See recent work</a>
+        </div>
+        <p class="mt-3 text-sm text-stone-500">Free 5–minute Loom video: what's working, what's leaking, and quick wins.</p>
+      </div>
+      <div class="relative">
+        <div class="rounded-2xl shadow-xl overflow-hidden bg-white">
+          <img class="w-full ratio-16x9 object-cover" src="img/valhalla-hero.png" alt="Valhalla Tattoo website showcase - professional tattoo studio site built by CtrlAltQ" width="960" height="540" fetchpriority="high" loading="eager" />
+        </div>
+        <div class="absolute -bottom-6 -left-6 bg-white rounded-xl shadow p-4 hidden md:block">
+          <p class="text-sm">Avg. build time: <strong>~2 weeks</strong><br/>100% fixed‑price quotes.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Social proof / badges -->
+  <section class="py-8 bg-stone-25 border-y border-stone-200">
+    <div class="mx-auto max-w-6xl px-4 grid grid-cols-2 md:grid-cols-4 gap-6 items-center">
+      <p class="text-center text-sm text-stone-600">Built with React / Next.js</p>
+      <p class="text-center text-sm text-stone-600">Optimized for Core Web Vitals</p>
+      <p class="text-center text-sm text-stone-600">Deployed on Netlify / Vercel</p>
+      <p class="text-center text-sm text-stone-600">Friendly to your wallet</p>
+    </div>
+  </section>
+
+  <!-- Work -->
+  <section id="work" class="py-16 md:py-20">
+    <div class="mx-auto max-w-6xl px-4">
+      <div class="flex items-end justify-between">
+        <h2 class="text-2xl md:text-3xl font-bold">Recent Work</h2>
+        <a href="#contact" class="hidden md:inline text-brand hover:underline">Want something like this?</a>
+      </div>
+      <div class="mt-8 grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <!-- Project cards -->
+        <article class="group bg-stone-25 rounded-2xl shadow border border-stone-200 overflow-hidden hover:shadow-lg transition-shadow">
+          <a href="https://fullerrestorationandrenovation.vercel.app/" target="_blank" rel="noopener noreferrer" class="block">
+            <img src="img/fuller-restoration.png" alt="Fuller Restoration & Renovation website" class="w-full ratio-16x9 object-cover" width="800" height="450" loading="lazy" />
+            <div class="p-4">
+              <h3 class="font-semibold group-hover:text-brand transition-colors">Fuller Restoration & Renovation</h3>
+              <p class="text-sm text-stone-600 mt-1">Middle Tennessee renovation specialists. Kitchen/bathroom remodels, whole-home restorations with 15+ years experience.</p>
+            </div>
+          </a>
+        </article>
+        <article class="group bg-stone-25 rounded-2xl shadow border border-stone-200 overflow-hidden hover:shadow-lg transition-shadow">
+          <a href="https://valhalla-tattoo.vercel.app/" target="_blank" rel="noopener noreferrer" class="block">
+            <img src="img/valhalla-tattoo.png" alt="Valhalla Tattoo website" class="w-full ratio-16x9 object-cover" width="800" height="450" loading="lazy" />
+            <div class="p-4">
+              <h3 class="font-semibold group-hover:text-brand transition-colors">Valhalla Tattoo</h3>
+              <p class="text-sm text-stone-600 mt-1">Spring Hill tattoo studio site. Artist portfolios, online booking, consultation scheduling, and aftercare guidance.</p>
+            </div>
+          </a>
+        </article>
+        <article class="group bg-stone-25 rounded-2xl shadow border border-stone-200 overflow-hidden hover:shadow-lg transition-shadow">
+          <a href="https://qtrlaltq-livid-phi.vercel.app/" target="_blank" rel="noopener noreferrer" class="block">
+            <img src="img/ctrlaltq-portfolio.png" alt="CtrlAltQ personal portfolio website" class="w-full ratio-16x9 object-cover" width="800" height="450" loading="lazy" />
+            <div class="p-4">
+              <h3 class="font-semibold group-hover:text-brand transition-colors">CtrlAltQ Portfolio</h3>
+              <p class="text-sm text-stone-600 mt-1">Personal developer portfolio with cyberpunk aesthetic. Interactive design showcasing my transition from chef to dev.</p>
+            </div>
+          </a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section id="services" class="py-16 bg-stone-25">
+    <div class="mx-auto max-w-6xl px-4">
+      <h2 class="text-2xl md:text-3xl font-bold">Services</h2>
+      <div class="mt-6 grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div class="rounded-2xl border border-stone-200 p-6 bg-white">
+          <h3 class="font-semibold">Landing Pages</h3>
+          <p class="mt-2 text-sm text-stone-600">Tight copy, clean design, built to convert. Includes analytics + basic SEO.</p>
+        </div>
+        <div class="rounded-2xl border border-stone-200 p-6 bg-white">
+          <h3 class="font-semibold">Small Business Sites</h3>
+          <p class="mt-2 text-sm text-stone-600">3–5 pages, blazing fast, easy to update. Training Loom included.</p>
+        </div>
+        <div class="rounded-2xl border border-stone-200 p-6 bg-white">
+          <h3 class="font-semibold">Makeovers & Audits</h3>
+          <p class="mt-2 text-sm text-stone-600">Performance, CRO, accessibility—get a prioritized punch‑list.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pricing (starter offer to upsell from) -->
+  <section id="pricing" class="py-16">
+    <div class="mx-auto max-w-6xl px-4">
+      <h2 class="text-2xl md:text-3xl font-bold">Simple Pricing</h2>
+      <div class="mt-6 grid md:grid-cols-3 gap-6">
+        <div class="rounded-2xl border border-stone-200 p-6 bg-stone-25 shadow-sm">
+          <p class="text-sm font-medium text-brand">Starter</p>
+          <h3 class="mt-1 text-xl font-bold">$99 one‑pager</h3>
+          <ul class="mt-3 text-sm text-stone-700 space-y-2 list-disc list-inside">
+            <li>Hero, services, contact form</li>
+            <li>Mobile‑first, fast load</li>
+            <li>Deployed for you</li>
+          </ul>
+          <a href="#contact" class="mt-4 inline-flex w-full justify-center rounded-lg bg-brand px-4 py-2.5 text-white font-medium hover:bg-brand-dark">Book it</a>
+        </div>
+        <div class="rounded-2xl border-2 border-brand p-6 bg-stone-25 shadow-md">
+          <p class="text-sm font-medium text-brand">Most Popular</p>
+          <h3 class="mt-1 text-xl font-bold">$499 business site</h3>
+          <ul class="mt-3 text-sm text-stone-700 space-y-2 list-disc list-inside">
+            <li>Up to 5 pages + blog</li>
+            <li>On‑brand design system</li>
+            <li>On‑page SEO + analytics</li>
+          </ul>
+          <a href="#contact" class="mt-4 inline-flex w-full justify-center rounded-lg bg-brand px-4 py-2.5 text-white font-medium hover:bg-brand-dark">Get a quote</a>
+        </div>
+        <div class="rounded-2xl border border-stone-200 p-6 bg-stone-25 shadow-sm">
+          <p class="text-sm font-medium text-brand">Add‑Ons</p>
+          <h3 class="mt-1 text-xl font-bold">From $99</h3>
+          <ul class="mt-3 text-sm text-stone-700 space-y-2 list-disc list-inside">
+            <li>Logo/brand polish</li>
+            <li>Copywriting tune‑up</li>
+            <li>Booking + automations</li>
+          </ul>
+          <a href="#contact" class="mt-4 inline-flex w-full justify-center rounded-lg border border-stone-300 px-4 py-2.5 font-medium hover:border-stone-400">Ask about options</a>
+        </div>
+      </div>
+      <p class="mt-3 text-xs text-stone-500">Transparent, fixed‑price quotes after a quick discovery call. No surprise bills.</p>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section id="faq" class="py-16 bg-stone-25">
+    <div class="mx-auto max-w-6xl px-4">
+      <h2 class="text-2xl md:text-3xl font-bold">FAQs</h2>
+      <div class="mt-6 grid md:grid-cols-2 gap-6">
+        <details class="rounded-xl border border-stone-200 p-4 group bg-white">
+          <summary class="cursor-pointer font-medium">How fast can you build?</summary>
+          <p class="mt-2 text-sm text-stone-700">Simple landing pages are typically delivered in ~2 weeks once content is ready. Rush available.</p>
+        </details>
+        <details class="rounded-xl border border-stone-200 p-4 group bg-white">
+          <summary class="cursor-pointer font-medium">Do you work with tight budgets?</summary>
+          <p class="mt-2 text-sm text-stone-700">Yep. We can start with a lean one‑pager and grow as leads come in.</p>
+        </details>
+        <details class="rounded-xl border border-stone-200 p-4 group bg-white">
+          <summary class="cursor-pointer font-medium">What do you need from me?</summary>
+          <p class="mt-2 text-sm text-stone-700">Logo (if you have one), a couple of photos, and rough copy. I can help refine the words.</p>
+        </details>
+        <details class="rounded-xl border border-stone-200 p-4 group bg-white">
+          <summary class="cursor-pointer font-medium">How do we start?</summary>
+          <p class="mt-2 text-sm text-stone-700">Fill the form and I'll send a quick Loom + a fixed‑price quote. If it's a fit, we book a slot.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact / Lead form -->
+  <section id="contact" class="py-16">
+    <div class="mx-auto max-w-2xl px-4">
+      <div class="bg-white rounded-2xl shadow border border-stone-200 p-6">
+        <h2 class="text-2xl font-bold">Get your free teardown</h2>
+        <p class="mt-1 text-stone-700 text-sm">Tell me a bit about your project. I'll reply with a Loom video and a fixed‑price quote.</p>
+        <!-- Netlify‑ready form with email notifications -->
+        <form name="contact" method="POST" action="/#thanks" data-netlify="true" netlify-honeypot="bot-field" data-netlify-recaptcha="true" class="mt-6 space-y-4">
+          <input type="hidden" name="form-name" value="contact">
+          <input type="hidden" name="subject" value="New Lead from CtrlAltQ">
+          <input type="hidden" name="to" value="jeremytclegg@gmail.com">
+          <p class="hidden">
+            <label>Don’t fill this out: <input name="bot-field"></label>
+          </p>
+          <div>
+            <label class="block text-sm font-medium">Name</label>
+            <input name="name" autocomplete="name" required class="mt-1 w-full rounded-lg border border-stone-300 px-3 py-2 focus:outline-none focus:ring-2 focus:ring-brand" placeholder="Your name" />
+          </div>
+          <div class="grid sm:grid-cols-2 gap-4">
+            <div>
+              <label class="block text-sm font-medium">Email</label>
+              <input type="email" name="email" autocomplete="email" inputmode="email" required class="mt-1 w-full rounded-lg border border-stone-300 px-3 py-2 focus:outline-none focus:ring-2 focus:ring-brand" placeholder="you@example.com" />
+            </div>
+            <div>
+              <label class="block text-sm font-medium">Website (if any)</label>
+              <input type="url" name="website" autocomplete="url" inputmode="url" class="mt-1 w-full rounded-lg border border-stone-300 px-3 py-2 focus:outline-none focus:ring-2 focus:ring-brand" placeholder="https://" />
+            </div>
+          </div>
+          <div>
+            <label class="block text-sm font-medium">What do you need?</label>
+            <textarea name="message" rows="4" class="mt-1 w-full rounded-lg border border-stone-300 px-3 py-2 focus:outline-none focus:ring-2 focus:ring-brand" placeholder="Quickly describe your project, goals, and timeline."></textarea>
+          </div>
+          <!-- reCAPTCHA -->
+          <div data-netlify-recaptcha="true"></div>
+          
+          <div class="flex items-center gap-3">
+            <button type="submit" class="inline-flex items-center rounded-lg bg-brand px-5 py-3 text-white font-medium hover:bg-brand-dark">Send</button>
+            <a href="https://cal.com/ctrlaltq/intro" target="_blank" rel="noopener noreferrer" class="text-sm underline">Or book a 15‑min call</a>
+          </div>
+          <p class="text-xs text-stone-500">No spam. I reply within 1–2 business days.</p>
+        </form>
+      </div>
+    </div>
+  </section>
+  </main>
+
+  <footer class="py-10 border-t border-stone-200 bg-stone-25">
+    <div class="mx-auto max-w-6xl px-4 flex flex-col md:flex-row md:items-center md:justify-between gap-4">
+      <p class="text-sm">© <span id="y"></span> CtrlAltQ — Jeremy Clegg</p>
+      <div class="text-sm text-stone-600 flex items-center gap-4">
+        <a href="mailto:jeremytclegg@gmail.com" class="hover:text-brand">Email</a>
+        <a href="https://github.com/ctrlaltq" target="_blank" rel="noopener noreferrer" class="hover:text-brand">GitHub</a>
+        <a href="https://www.linkedin.com/in/chefq-jeremyclegg" target="_blank" rel="noopener noreferrer" class="hover:text-brand">LinkedIn</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+
+  <!-- Plausible Analytics -->
+  <script defer data-domain="ctrlaltq.dev" src="https://plausible.io/js/script.js"></script>
+</body>
+</html>

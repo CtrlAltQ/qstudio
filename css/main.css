@@ -1,0 +1,35 @@
+/* Custom styles for CtrlAltQ website */
+
+/* Reduce CLS on image placeholders */
+.ratio-16x9 { 
+  aspect-ratio: 16 / 9; 
+}
+
+.ratio-1x1 { 
+  aspect-ratio: 1 / 1; 
+}
+
+/* Screen reader only utility class */
+.sr-only { 
+  position: absolute; 
+  width: 1px; 
+  height: 1px; 
+  padding: 0; 
+  margin: -1px; 
+  overflow: hidden; 
+  clip: rect(0, 0, 0, 0); 
+  white-space: nowrap; 
+  border: 0; 
+}
+
+/* Focus styles for accessibility */
+.sr-only:focus {
+  position: static;
+  width: auto;
+  height: auto;
+  padding: 0.75rem;
+  margin: 0;
+  overflow: visible;
+  clip: auto;
+  white-space: normal;
+}
