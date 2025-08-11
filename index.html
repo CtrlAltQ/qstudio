@@ -307,13 +307,9 @@
         <h2 class="text-2xl font-bold">Get your free teardown</h2>
         <p class="mt-1 text-stone-700 text-sm">Tell me a bit about your project. I'll reply with a Loom video and a fixed‑price quote.</p>
         <!-- Netlify‑ready form with email notifications -->
-        <form name="contact" method="POST" action="/#thanks" data-netlify="true" netlify-honeypot="bot-field" data-netlify-recaptcha="true" class="mt-6 space-y-4">
-          <input type="hidden" name="form-name" value="contact">
-          <input type="hidden" name="subject" value="New Lead from CtrlAltQ">
-          <input type="hidden" name="to" value="jeremytclegg@gmail.com">
-          <p class="hidden">
-            <label>Don’t fill this out: <input name="bot-field"></label>
-          </p>
+        <form name="contact" method="POST" action="https://formspree.io/f/xvgqlgwz" class="mt-6 space-y-4">
+          <input type="hidden" name="_subject" value="New Lead from CtrlAltQ">
+          <input type="hidden" name="_next" value="https://your-domain.vercel.app/#thanks">
           <div>
             <label class="block text-sm font-medium">Name</label>
             <input name="name" autocomplete="name" required class="mt-1 w-full rounded-lg border border-stone-300 px-3 py-2 focus:outline-none focus:ring-2 focus:ring-brand" placeholder="Your name" />
@@ -332,8 +328,6 @@
             <label class="block text-sm font-medium">What do you need?</label>
             <textarea name="message" rows="4" class="mt-1 w-full rounded-lg border border-stone-300 px-3 py-2 focus:outline-none focus:ring-2 focus:ring-brand" placeholder="Quickly describe your project, goals, and timeline."></textarea>
           </div>
-          <!-- reCAPTCHA -->
-          <div data-netlify-recaptcha="true"></div>
           
           <div class="flex items-center gap-3">
             <button type="submit" class="inline-flex items-center rounded-lg bg-brand px-5 py-3 text-white font-medium hover:bg-brand-dark">Send</button>
